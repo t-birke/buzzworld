@@ -1,0 +1,446 @@
+﻿{
+  "storyTitle":  "ID. Buzz Community of the future",
+  "storyDescription":  "This demo gives you a brief overview of how to leverage communities and web3 technology to fuel your sales funnel.",
+  "chapters" : [
+    {
+      "chapterId" : 0,
+      "chapterTitle" : "Intro",
+      "type" : 0,
+      "chapterDescription" : "A quick intro and explanation of the demo environment",
+      "chapterImageUrl" : "https://ohana.cab/files/buzz-hero-2.jpg",
+      "clouds" : [
+        1,2,3,4
+      ],
+      "videoSnippets": [
+        {
+          "id": "c1v1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 3000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        }
+      ]
+    },
+    {
+      "chapterId" : 1,
+      "chapterTitle" : "Start Button",
+      "type" : 3,
+      "chapterDescription" : "show the start button",
+      "chapterImageUrl" : "",
+      "clouds" : [],
+      "buttons" : [
+        {
+          "buttonType" : 1,
+          "buttonText" : "start",
+          "action" : 0,
+          "actionPayload" : 2,
+          "position" : {
+            "x":-0.1091,
+            "y":0.2765,
+            "z":-0.0285
+          }
+        }
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":-1.097,
+        "y":1.288,
+        "z":1.497
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":-201.845,
+        "z":0
+      }
+    },
+    {
+      "chapterId" : 2,
+      "chapterTitle" : "Brandon",
+      "type" : 0,
+      "chapterDescription" : "How to pull influencers into your ecosystem",
+      "chapterImageUrl" : "",
+      "clouds" : [
+        1,2,3,4
+      ],
+      "videoSnippets": [
+        {
+          "id": "c2v1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 10000,
+          "durationInMS": 10000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        },
+        {
+          "id": "c2v2",
+          "startHookTimeInMS": 2000,
+          "endHookTimeInMS": 10000,
+          "durationInMS": 8000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 1,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-1.286,
+            "y":1.05,
+            "z":-0.2162
+          },
+          "rotation" : {
+            "x":75.4,
+            "y":-63.6,
+            "z":-170.2
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "c2v3",
+          "startHookTimeInMS": 5000,
+          "endHookTimeInMS": 10000,
+          "durationInMS": 5000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 2,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":1.21,
+            "y":1.08,
+            "z":0.91
+          },
+          "rotation" : {
+            "x":76.007,
+            "y":-6.723,
+            "z":173.351
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "vw-slide-persona-brandon",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 10000,
+          "durationInMS": 10000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-0.106,
+            "y":0.413,
+            "z":-0.032
+          },
+          "containsPosition" : true,
+          "containsRotation" : false
+        }
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":-1.097,
+        "y":1.288,
+        "z":1.497
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":-201.845,
+        "z":0
+      }
+    },{
+      "chapterId" : 3,
+      "chapterTitle" : "Start Button",
+      "type" : 3,
+      "chapterDescription" : "show the start button",
+      "chapterImageUrl" : "",
+      "clouds" : [],
+      "buttons" : [
+        {
+          "buttonType" : 1,
+          "buttonText" : "start",
+          "action" : 0,
+          "actionPayload" : 4,
+          "position" : {
+            "x":-0.477,
+            "y":0.344,
+            "z":0.12
+          }
+        }
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":1.36,
+        "y":1.31,
+        "z":1.13
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":0,
+        "z":0
+      }
+    },
+    {
+      "chapterId" : 4,
+      "chapterTitle" : "Uwe",
+      "type" : 0,
+      "chapterDescription" : "Collaborate with Influencers and create NFTs",
+      "chapterImageUrl" : "",
+      "clouds" : [
+        1,2,3,4
+      ],
+      "videoSnippets": [
+        {
+          "id": "c3v1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 74792,
+          "durationInMS": 74792,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        },
+        {
+          "id": "c3v2",
+          "startHookTimeInMS": 2000,
+          "endHookTimeInMS": 74792,
+          "durationInMS": 67792,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 2,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "videoMovement" : [
+            {
+              "targetTimeInMs" : 6000,
+              "transitionDurationInMs" : 1500,
+              "targetLocation" : {
+                "x":-3.813,
+                "y":1.358,
+                "z":2.8
+              }
+            },
+            {
+              "targetTimeInMs" : 12000,
+              "transitionDurationInMs" : 1500,
+              "targetLocation" : {
+                "x":-0.294,
+                "y":1.358,
+                "z":1.017
+              }
+            }
+
+          ],
+          "containsVideoMovement" :  true,
+          "position" : {
+            "x":-0.294,
+            "y":1.358,
+            "z":1.017
+          },
+          "rotation" : {
+            "x":76.007,
+            "y":-2.033,
+            "z":173.352
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "c3v3",
+          "startHookTimeInMS": 6000,
+          "endHookTimeInMS": 12000,
+          "durationInMS": 6000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 6,
+          "keepDeviceAfterVideoHasStopped" : false,
+          "position" : {
+            "x":-0.294,
+            "y":1.358,
+            "z":1.017
+          },
+          "rotation" : {
+            "x":76.007,
+            "y":-2.033,
+            "z":173.352
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "c3v4",
+          "startHookTimeInMS": 15000,
+          "endHookTimeInMS": 22000,
+          "durationInMS": 7000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 1,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":0.438,
+            "y":1.03325,
+            "z":0.2780303
+          },
+          "rotation" : {
+            "x":75.46,
+            "y":20.23,
+            "z":-191.5
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+
+        },
+        {
+          "id": "vw-slide-persona-uwe",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 74000,
+          "durationInMS": 74000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-0.477,
+            "y":0.344,
+            "z":0.12
+          },
+          "containsPosition" : true,
+          "containsRotation" : false
+        }
+        
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":1.36,
+        "y":1.31,
+        "z":1.13
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":0,
+        "z":0
+      },
+      "chapterContainsAvatarMovement" : true,
+      "avatarMovement" : [
+        {
+          "targetTimeInMs": 72000,
+          "transitionDurationInMs" : 2000,
+          "targetLocation":
+          {"x":1.75,
+            "y":1.159,
+            "z":1.103}
+
+        }
+      ]
+    },{
+      "chapterId" : 5,
+      "chapterTitle" : "Start Button",
+      "type" : 3,
+      "chapterDescription" : "show the start button",
+      "chapterImageUrl" : "",
+      "clouds" : [],
+      "buttons" : [
+        {
+          "buttonType" : 1,
+          "buttonText" : "start",
+          "action" : 0,
+          "actionPayload" : 6
+        }
+      ]
+    },
+    {
+      "chapterId": 6,
+      "chapterTitle": "Zoe",
+      "type": 0,
+      "chapterDescription": "attract new customers through an engaging community",
+      "chapterImageUrl": "",
+      "clouds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "videoSnippets": [
+        {
+          "id": "c4v1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 91500,
+          "durationInMS": 91500,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        },
+        {
+          "id": "c4v2",
+          "startHookTimeInMS": 10500,
+          "endHookTimeInMS": 91500,
+          "durationInMS": 81000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 1,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-0.899,
+            "y":1.579,
+            "z":0.927
+          },
+          "rotation" : {
+            "x":75.46,
+            "y":33.597,
+            "z":-170.197
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+
+        },
+        {
+          "id": "c4v3",
+          "startHookTimeInMS": 63000,
+          "endHookTimeInMS": 74000,
+          "durationInMS": 11000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 2,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":1.222,
+            "y":1.66,
+            "z":-1.718
+          },
+          "rotation" : {
+            "x":66.952,
+            "y":91.334,
+            "z":187.123
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "vw-slide-persona-zoe",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 91500,
+          "durationInMS": 91500,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-0.358,
+            "y":0.477,
+            "z":-0.231
+          },
+          "containsPosition" : true,
+          "containsRotation" : false
+        }
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":2.736,
+        "y":1.26,
+        "z":0.823
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":0,
+        "z":0
+      }
+    }
+  ]
+}

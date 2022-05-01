@@ -1,0 +1,134 @@
+﻿{
+  "storyTitle":  "ID. Buzz Community of the future",
+  "storyDescription":  "This is an end to end demo spanning the whole customer life cycle from unknown to known to ambassador.",
+  "chapters" : [
+    { 
+      "chapterTitle" : "Intro",
+      "chapterDescription" : "This is the first chapter, it is about some initial stuff \n yo i think that's about it",
+      "chapterImageUrl" : "https://ohana.cab/files/buzz-hero-2.jpg",
+      "clouds" : [
+        1,2,3,4
+      ],
+      "videoSnippets": [
+        {
+          "id": "main video",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 66083,
+          "durationInMS": 66083,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        },
+        {
+          "id": "vw-slide-main-01",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 3000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 4
+        },
+        {
+          "id": "vw-slide-main-02",
+          "startHookTimeInMS": 3000,
+          "endHookTimeInMS": 6000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 4
+        },
+        {
+          "id": "vw-slide-main-03",
+          "startHookTimeInMS": 6000,
+          "endHookTimeInMS": 9000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 4
+        },
+        {
+          "id": "vw-slide-main-04",
+          "startHookTimeInMS": 9000,
+          "endHookTimeInMS": 12000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 4
+        },
+        {
+          "id": "vw-slide-main-05",
+          "startHookTimeInMS": 12000,
+          "endHookTimeInMS": 15000,
+          "durationInMS": 3000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 4
+        },
+        {
+          "id": "mobile1",
+          "startHookTimeInMS": 5000,
+          "endHookTimeInMS": 50000,
+          "durationInMS": 45000,
+          "cloud": 4,
+          "mainStory": true,
+          "device": 1
+        },
+        {
+          "id": "vw-slide-persona-john",
+          "startHookTimeInMS": 2500,
+          "endHookTimeInMS": 10000,
+          "durationInMS": 7500,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5
+        },
+        {
+          "id": "desktop-01",
+          "startHookTimeInMS": 10500,
+          "endHookTimeInMS": 38500,
+          "durationInMS": 28000,
+          "cloud": 4,
+          "mainStory": true,
+          "device": 2
+        },
+        {
+          "id": "vw-slide-persona-daniel",
+          "startHookTimeInMS": 10500,
+          "endHookTimeInMS": 18500,
+          "durationInMS": 8000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5
+        },
+        {
+          "id": "vw-slide-persona-jerome",
+          "startHookTimeInMS": 18700,
+          "endHookTimeInMS": 28700,
+          "durationInMS": 10000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5
+        },
+        {
+          "id": "AccountOverview",
+          "startHookTimeInMS": 3000,
+          "endHookTimeInMS": 15000,
+          "durationInMS": 12000,
+          "cloud": 1,
+          "mainStory": false,
+          "device": 2
+        },
+        {
+          "id": "Pardot",
+          "startHookTimeInMS": 6000,
+          "endHookTimeInMS": 17000,
+          "durationInMS": 11000,
+          "cloud": 2,
+          "mainStory": false,
+          "device": 2
+        }
+      ]
+    }
+    
+  ]
+}

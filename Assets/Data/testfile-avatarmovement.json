@@ -1,0 +1,165 @@
+﻿{
+  "storyTitle":  "ID. Buzz Community of the future",
+  "storyDescription":  "This demo gives you a brief overview of how to leverage communities and web3 technology to fuel your sales funnel.",
+  "chapters" : [
+    {
+      "chapterId" : 0,
+      "chapterTitle" : "Uwe",
+      "type" : 0,
+      "chapterDescription" : "Collaborate with Influencers and create NFTs",
+      "chapterImageUrl" : "",
+      "clouds" : [
+        1,2,3,4
+      ],
+      "videoSnippets": [
+        {
+          "id": "c3v1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 74792,
+          "durationInMS": 74792,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        },
+        {
+          "id": "c3v2",
+          "startHookTimeInMS": 7000,
+          "endHookTimeInMS": 74500,
+          "durationInMS": 67792,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 2,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "videoMovement" : [
+            {
+              "targetTimeInMs" : 25000,
+              "transitionDurationInMs" : 1500,
+              "targetLocation" : {
+                "x":-3.813,
+                "y":1.358,
+                "z":2.8
+              }
+            },
+            {
+              "targetTimeInMs" : 57000,
+              "transitionDurationInMs" : 1500,
+              "targetLocation" : {
+                "x":-0.294,
+                "y":1.358,
+                "z":1.017
+              }
+            }
+
+          ],
+          "containsVideoMovement" :  true,
+          "position" : {
+            "x":-0.294,
+            "y":1.358,
+            "z":1.017
+          },
+          "rotation" : {
+            "x":76.007,
+            "y":-2.033,
+            "z":173.352
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "c3v3",
+          "startHookTimeInMS": 27000,
+          "endHookTimeInMS": 58000,
+          "durationInMS": 31000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 6,
+          "keepDeviceAfterVideoHasStopped" : false,
+          "position" : {
+            "x":-0.294,
+            "y":1.358,
+            "z":1.017
+          },
+          "rotation" : {
+            "x":76.007,
+            "y":-2.033,
+            "z":173.352
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+        },
+        {
+          "id": "c3v4",
+          "startHookTimeInMS": 67000,
+          "endHookTimeInMS": 74000,
+          "durationInMS": 7000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 1,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":0.438,
+            "y":1.03325,
+            "z":0.2780303
+          },
+          "rotation" : {
+            "x":75.46,
+            "y":20.23,
+            "z":-191.5
+          },
+          "containsPosition" : true,
+          "containsRotation" : true
+          
+        },
+        {
+          "id": "vw-slide-persona-uwe",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 74792,
+          "durationInMS": 74792,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 5,
+          "keepDeviceAfterVideoHasStopped" : true,
+          "position" : {
+            "x":-0.477,
+            "y":0.344,
+            "z":0.12
+          },
+          "containsPosition" : true,
+          "containsRotation" : false
+        }
+      ],
+      "hasWorldPositionAttached" : true,
+      "worldPositionOffset" :  {
+        "x":1.36,
+        "y":1.31,
+        "z":1.13
+      },
+      "worldRotationOffset" :  {
+        "x":0,
+        "y":0,
+        "z":0
+      },
+      "chapterContainsAvatarMovement" : true,
+      "avatarMovement" : [
+        {
+          "targetTimeInMs": 2000,
+          "transitionDurationInMs": 2000,
+          "targetLocation": {
+            "x":-0.626,
+            "y":-0.151,
+            "z":-0.694
+          }
+        },
+        {
+          "targetTimeInMs": 4000,
+          "transitionDurationInMs": 2000,
+          "targetLocation": {
+            "x":0.43,
+            "y":-0.151,
+            "z":-0.067
+          }
+        }
+      ]
+    }
+  ]
+}

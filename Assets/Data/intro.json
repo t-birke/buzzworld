@@ -1,0 +1,110 @@
+﻿{
+  "storyTitle":  "Salesforce Demo VR - First Steps",
+  "storyDescription":  "Welcome to Salesforce Demo VR. In this short Series of videos we will show you, how this VR application works.",
+  "chapters" : [
+    { 
+      "chapterTitle" : "Intro",
+      "chapterDescription" : "This is the first chapter.",
+      "chapterImageUrl" : "https://ohana.cab/files/buzz-hero-2.jpg",
+      "chapterContainsAvatarMovement" : true,
+      "type": 0,
+      "clouds" : [
+        0
+      ],
+      "videoSnippets": [
+        {
+          "id": "main video",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 5000,
+          "durationInMS": 5000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        }
+      ],
+      "avatarMovement" : [
+        {
+          "targetTimeInMs": 2000,
+          "targetLocation": 
+            {"x":-16.34183,
+            "y":11.998,
+            "z":-13.544}
+          
+        },
+        {
+          "targetTimeInMs": 2000,
+          "targetLocation": {
+            "x":-16.34183,
+            "y":11.998,
+            "z":-11.91435
+          }
+        }
+      ]
+    },
+    {
+      "chapterTitle" : "Decision 1",
+      "type" : 1,
+      "clouds"   : [
+      0
+      ],
+      "choices" : [
+        {
+          "buttonText" : "How To",
+          "action" : 0,
+          "actionPayload" : "How To"
+        },
+        {
+          "buttonText" : "Tour",
+          "action" : 0,
+          "actionPayload" : "Tour"
+        },
+        {
+          "buttonText" : "Close",
+          "action" : 1,
+          "actionPayload" : ""
+        }
+      ]
+      
+    },
+    {
+      "chapterTitle" : "How To",
+      "chapterDescription" : "This chapter explains\n - how to move\n - how to handle the controls\n - how to decide what to view",
+      "chapterImageUrl" : "https://ohana.cab/files/buzz-hero-2.jpg",
+      "clouds" : [
+        0
+      ],
+      "type" : 0,
+      "videoSnippets": [
+        {
+          "id": "mobile1",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 35000,
+          "durationInMS": 35000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        }
+      ]
+    },
+    {
+      "chapterTitle" : "Tour",
+      "chapterDescription" : "A quick tour around this floor of the Salesforce Tower",
+      "chapterImageUrl" : "https://ohana.cab/files/buzz-hero-2.jpg",
+      "clouds" : [
+        0
+      ],
+      "type" : 0,
+      "videoSnippets": [
+        {
+          "id": "desktop-01",
+          "startHookTimeInMS": 0,
+          "endHookTimeInMS": 35000,
+          "durationInMS": 35000,
+          "cloud": 0,
+          "mainStory": true,
+          "device": 0
+        }
+      ]
+    }
+  ]
+}

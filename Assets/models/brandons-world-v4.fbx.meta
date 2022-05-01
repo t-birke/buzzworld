@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 809a94f56a4399746b8fd36a72c2eb2d
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 4c5027e163625724dbef5261894ffcdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_black
+    second: {fileID: 2100000, guid: ea064b7a9cae67849abdec3d81898676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_blue
+    second: {fileID: 2100000, guid: a59946822749a104ba21379c258c9d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_white
+    second: {fileID: 2100000, guid: efc0f7d433017464e8ec75425ae928e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_yellow
+    second: {fileID: 2100000, guid: 6f6175a6707aea24d8afd5a049a9ded5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TikiStatues
+    second: {fileID: 2100000, guid: 9785bb4dcc53bbe46b7093cf98a4493c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beacHouse_unique_textures
+    second: {fileID: 2100000, guid: b448292d53d702348a86032db14e063c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_planks
+    second: {fileID: 2100000, guid: c8ed857746b441345a302b408da902f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_roof_uniques
+    second: {fileID: 2100000, guid: 80ade4ea0d48ed842a2ab59b863773da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_windows
+    second: {fileID: 2100000, guid: 6e07613ba3cfaec439d2acc4e994d6ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 9aa4dd70f00001f4198cc38d04947762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottomMat
+    second: {fileID: 2100000, guid: 0a2035507700e584184bb94b93150e6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brakedisk
+    second: {fileID: 2100000, guid: e7c77dd95286c774f956e9eb6686bead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpaint
+    second: {fileID: 2100000, guid: 87a268f7a63a39740a3d81d64c5f8c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome
+    second: {fileID: 2100000, guid: 4baff5ed7015f6b4da6a5a24e58387db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clearglass
+    second: {fileID: 2100000, guid: 6a7d969497576884cb477df570f79fc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkglass
+    second: {fileID: 2100000, guid: 091739fa0e61656489b75f886e06871d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decals_sand
+    second: {fileID: 2100000, guid: 511f86ceb2fe8134bad1df3ba93de6b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hero
+    second: {fileID: 2100000, guid: 59a0555828950964f9ab3861cdf134fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lifeguard_props
+    second: {fileID: 2100000, guid: 2807dc0d95fe591429fc2fa5cdff86fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightglass
+    second: {fileID: 2100000, guid: da00ca9ee0e00e2419fb31a0959a22f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 865670e4e7937bd4e94d8ca70bd8ae57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mattemetal
+    second: {fileID: 2100000, guid: 4888134e3f31e4e43ba9de407ced9f7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ocean
+    second: {fileID: 2100000, guid: a51a3aae084d7504e999fd25f8d3b71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palm_trunk
+    second: {fileID: 2100000, guid: ac420ec72c889874c9a2e5d49feaa3ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palmleaves
+    second: {fileID: 2100000, guid: 07157a7d37b2e7c49b4b87b5b5a306c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibar1tiki_shiny_things
+    second: {fileID: 2100000, guid: 816f86143bf2d0442a1aba34c81691f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibar1tikibar
+    second: {fileID: 2100000, guid: cff44048c945aa440b68482464f4f523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibarsand
+    second: {fileID: 2100000, guid: bd96b61c43bca9445b62f98d21e941cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: props_animalsanimals
+    second: {fileID: 2100000, guid: 73bb90751d32c514aaab5db1c41e4899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: props_surfboard_paddleprops_vegetationleaves
+    second: {fileID: 2100000, guid: 590b44f2df2730942b01e5380f12b282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redglass
+    second: {fileID: 2100000, guid: 88bf78a7d59cb1f4db70a0cc04580ef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim_second
+    second: {fileID: 2100000, guid: 390b9942792128748b4c0f37d231487f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: 157fa61159b116d4c92acb1a7bbdfa85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rocks
+    second: {fileID: 2100000, guid: 5efe1f299b6e50643966b7039c88b2b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: deaa5e42cc2c9624784009d85b310ccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_decals
+    second: {fileID: 2100000, guid: c7cc54b361bdb77428cdf87dc52bb3fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfboards_and_paddles
+    second: {fileID: 2100000, guid: 1201d1a0ac6cec648a1120a428220bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire
+    second: {fileID: 2100000, guid: e9cba70bbb439904aac5109f77c275cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ukulele3
+    second: {fileID: 2100000, guid: 2455fcb14d3f6474aa916ee5912e882f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: underwater_sand
+    second: {fileID: 2100000, guid: 23ef39db219f93446bae699bc9c3c79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vegetation
+    second: {fileID: 2100000, guid: 553fb937c94b89b4a882369633b03931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowglass
+    second: {fileID: 2100000, guid: 0358a290489ffd54b8775d5256186613, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TikiStatues_baseColor
+    second: {fileID: 2800000, guid: 18f9cffc821111d4db61acee6c1c4c01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beacHouse_unique_textures_baseColor
+    second: {fileID: 2800000, guid: a7de1b8c7e166ef4fb43f4571848daae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_planks_baseColor
+    second: {fileID: 2800000, guid: b32dd0d4b4b329b4a9d7be8ffffb9074, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_roof_uniques_baseColor
+    second: {fileID: 2800000, guid: 8e624f2e38f84284e9f502a5694672fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beachHouse_windows_baseColor
+    second: {fileID: 2800000, guid: 5fb077834a5244d439a9be8e9b70ea2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: decals_sand_baseColor
+    second: {fileID: 2800000, guid: e54da1ee13a0ffd4f9d793f95166f9cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lifeguard_props_baseColor
+    second: {fileID: 2800000, guid: 381714c50032e6e478eb1dd4c51c3479, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: material_baseColor
+    second: {fileID: 2800000, guid: 103bc74076fa61a4fbc804d023f8d044, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ocean_baseColor
+    second: {fileID: 2800000, guid: 99e90d0ce1676384e824f91cece2a977, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: palm_trunk_baseColor
+    second: {fileID: 2800000, guid: b3fcdbaf2e1bfab409d97e140ebcc6b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: palmleaves_baseColor
+    second: {fileID: 2800000, guid: 65f3c37e21a624e44b5d585e69017833, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibar1tiki_shiny_things_baseColor
+    second: {fileID: 2800000, guid: d359e920788d6bc47a6e3f611656f824, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibar1tikibar_baseColor
+    second: {fileID: 2800000, guid: a5fc708173df5714996e774d9cdc2523, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prop_tikibarsand_baseColor
+    second: {fileID: 2800000, guid: 4dc267e8f1801624597fb6c0ff8fb5f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: props_animalsanimals_baseColor
+    second: {fileID: 2800000, guid: b23f4f2902323194c882982b142b0cf4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: road_baseColor
+    second: {fileID: 2800000, guid: 3abacc371e0e84442888dc5754940025, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rocks_baseColor
+    second: {fileID: 2800000, guid: eeaef686da8456648a759cf547905473, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roof_baseColor
+    second: {fileID: 2800000, guid: 841f26ee062072d49a58d2ffc779039b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roof_decals_baseColor
+    second: {fileID: 2800000, guid: fe6df591a03dce447b3f5c4cdaf07dc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: surfboards_and_paddles_baseColor
+    second: {fileID: 2800000, guid: b55d35072f20bc8468ce16831c3ce141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ukulele3_baseColor
+    second: {fileID: 2800000, guid: db1e6d2a6c344784783c0152bfeac04a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: underwater_sand_baseColor
+    second: {fileID: 2800000, guid: d52cf16264a17364e8175d4d170676e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vegetation_baseColor
+    second: {fileID: 2800000, guid: 6b56bbcf733ce89489d1a33fc0849afb, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
