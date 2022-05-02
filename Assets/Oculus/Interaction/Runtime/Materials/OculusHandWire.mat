@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: OculusHandWire
-  m_Shader: {fileID: 4800000, guid: 4ce7e07283493ec45b61d3dca33be193, type: 3}
+  m_Shader: {fileID: 4800000, guid: b895d3431e75dc345a72e171f82bfbea, type: 3}
   m_ShaderKeywords: _COLORGRADIENT_ON _FRESNEL_ON _KEYWORD0_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -113,7 +113,6 @@ Material:
     - _UVSec: 0
     - _UseTexture: 0
     - _WristRange: 0.06
-    - _WristScale: 1
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -130,6 +129,5 @@ Material:
     - _OutlineGlowColor: {r: 1, g: 1, b: 1, a: 1}
     - _PinchColor: {r: 1, g: 1, b: 1, a: 1}
     - _PinchPosition: {r: 0, g: 0, b: 0, a: 0}
-    - _WristLocalOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WristPosition: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

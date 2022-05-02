@@ -146,7 +146,23 @@
         "x":0,
         "y":-201.845,
         "z":0
-      }
+      },
+      "logData" : [
+        {
+          "targetTimeInMs" : 14000,
+          "heading" : "Login to community",
+          "text" : "User Brandon Cole did log in to the community.",
+          "iconName" : "custom77_120",
+          "iconColor" : "#5876a3FF"
+        },
+        {
+          "targetTimeInMs" : 25000,
+          "heading" : "Content created",
+          "text" : "User Brandon Cole created a linked community post with geo coordinates.",
+          "iconName" : "location_120",
+          "iconColor" : "#f5675bFF"
+        }
+      ]
     },{
       "chapterId" : 3,
       "chapterTitle" : "Start Button",
@@ -316,25 +332,34 @@
         "y":0,
         "z":0
       },
-      "chapterContainsAvatarMovement" : true,
-      "avatarMovement" : [
+      "logData" : [
         {
-          "targetTimeInMs": 70000,
-          "transitionDurationInMs": 2000,
-          "targetLocation": {
-            "x":-0.626,
-            "y":-0.151,
-            "z":-0.694
-          }
+          "targetTimeInMs" : 11000,
+          "heading" : "Contact record access",
+          "text" : "User Uwe Kardanov accessed Customer 360 profile of contact Brandon Cole.",
+          "iconName" : "contact_120",
+          "iconColor" : "#a094edff"
         },
         {
-          "targetTimeInMs": 72000,
-          "transitionDurationInMs": 2000,
-          "targetLocation": {
-            "x":0.43,
-            "y":-0.151,
-            "z":-0.067
-          }
+          "targetTimeInMs" : 22000,
+          "heading" : "Slack channel created",
+          "text" : "User Uwe Kardanov has created a Slack Connect Channel.",
+          "iconName" : "live_chat_120",
+          "iconColor" : "#48c3ccFF"
+        },
+        {
+          "targetTimeInMs" : 54000,
+          "heading" : "Crypto campaign created",
+          "text" : "User Uwe Kardanov has created a crypto campaign.",
+          "iconName" : "campaign_120",
+          "iconColor" : "#f49756FF"
+        },
+        {
+          "targetTimeInMs" : 66000,
+          "heading" : "NFTs minted",
+          "text" : "User Uwe Kardanov has created a new NFT collection.",
+          "iconName" : "coupon_codes_120",
+          "iconColor" : "#7dcf64FF"
         }
       ]
     },{
@@ -349,7 +374,12 @@
           "buttonType" : 1,
           "buttonText" : "start",
           "action" : 0,
-          "actionPayload" : 6
+          "actionPayload" : 6,
+          "position" : {
+            "x":-0.358,
+            "y":0.477,
+             "z":-0.231
+          }
         }
       ],
       "hasWorldPositionAttached" : true,
@@ -459,7 +489,128 @@
         "x":0,
         "y":0,
         "z":0
-      }
+      },
+      "chapterContainsAvatarMovement" : true,
+      "avatarMovement" : [
+        {
+          "targetTimeInMs": 500,
+          "transitionDurationInMs": 2000,
+          "targetLocation": {
+            "x":-1.963,
+            "y":-0.101,
+            "z":-0.352
+          }
+        },
+        {
+          "targetTimeInMs": 2500,
+          "transitionDurationInMs": 2000,
+          "targetLocation": {
+            "x":-0.88,
+            "y":-0.101,
+            "z":0.433
+          }
+        }
+      ],
+      "logData" : [
+        {
+          "targetTimeInMs" : 14000,
+          "heading" : "New Community User",
+          "text" : "New community user created. federated from VW ID: zoe.ziegler.demo@gmail.com",
+          "iconName" : "record_create_120",
+          "iconColor" : "#fa975cFF"
+        },
+        {
+          "targetTimeInMs" : 14500,
+          "heading" : "Wallet created",
+          "text" : "Wallet a3E7Q0000000TXCwUAO created for contact with Address bbb26ba389349882e9ad9889f",
+          "iconName" : "custom40_120",
+          "iconColor" : "#0079bcFF"
+        },
+        {
+          "targetTimeInMs" : 15000,
+          "heading" : "New Campaign Member",
+          "text" : "Contact 0037Q000007RhYDQAO has been added to campaign Buzz x Brandon Cole Special Odometer",
+          "iconName" : "custom101_120",
+          "iconColor" : "#f5675bFF"
+        },
+        {
+          "targetTimeInMs" : 16000,
+          "heading" : "Profile data updated",
+          "text" : "Contact Zoe Ziegler added profile data. Changed: FirstName, LastName, City",
+          "iconName" : "settings_120",
+          "iconColor" : "#5876a3FF"
+        },
+        {
+          "targetTimeInMs" : 16500,
+          "heading" : "Profile data updated",
+          "text" : "Contact Zoe Ziegler added profile data. Changed: Image, Topics to Follow",
+          "iconName" : "settings_120",
+          "iconColor" : "#5876a3FF"
+        },
+        {
+          "targetTimeInMs" : 17000,
+          "heading" : "Customer Authenticated",
+          "text" : "User successfully authenticated to the community using VW ID zoe.ziegler.demo@gmail.com",
+          "iconName" : "custom76_120",
+          "iconColor" : "#48c3ccFF"
+        },
+        {
+          "targetTimeInMs" : 26000,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse community home.",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 28000,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse map",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 30000,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse post 028d2387 by Valentine Wagner",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 31500,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse user profile Valentine Wagner",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 37000,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse leaderboard",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 71500,
+          "heading" : "NFTs distributed",
+          "text" : "NFT Buzz x Brandon Cole Special Odometer distributed to Campaign Member Zoe Ziegler",
+          "iconName" : "coupon_codes_120",
+          "iconColor" : "#f5675bFF"
+        },
+        {
+          "targetTimeInMs" : 73000,
+          "heading" : "Interaction",
+          "text" : "Activity recorded on iPhone 12 for User Zoe Ziegler: browse wallet",
+          "iconName" : "marketing_actions_120",
+          "iconColor" : "#7dcf64FF"
+        },
+        {
+          "targetTimeInMs" : 64000,
+          "heading" : "Contact record access",
+          "text" : "User Uwe Kardanov accessed Customer 360 profile of contact Zoe Ziegler",
+          "iconName" : "contact_120",
+          "iconColor" : "#a094edff"
+        }
+        ]
     }
   ]
 }

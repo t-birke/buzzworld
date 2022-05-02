@@ -46,17 +46,20 @@ namespace Data
         
         public List<VideoPlayer> mainStoryVideoPlayers = new List<VideoPlayer>();
         public List<GameObject> DevicesWithStoppedVideosRemainingInScene = new List<GameObject>();
+        public List<OrgActivity> ActivityLogQueue = new List<OrgActivity>();
 
         private Sequence AvatarMovementSequence;
+
+        private HandMenuContentHandler[] handMenuReferences;
         // Start is called before the first frame update
         void Start()
         {
-            
+            Debug.Log("Start. Timescale = " + Time.timeScale);
             _storytitle.GetComponentInChildren<TextMeshProUGUI>().text = _dataController.storyData.storyTitle;
             availableChapters = _dataController.storyData.chapters;
             currentChapter = 0;
             playChapter();
-
+            handMenuReferences = FindObjectsOfType<HandMenuContentHandler>(true);
             OVRManager.cpuLevel = 4;
             OVRManager.gpuLevel = 4;
         }
@@ -211,6 +214,35 @@ namespace Data
                         StartCoroutine(EnqueueVideoMovement(am, chapter.worldPositionOffset, _avatar));
                     }
                 }
+                //check if there is ActivityLog Data
+                if (!chapter.logData.Equals(null) && chapter.logData.Count > 0)
+                {
+                    Debug.Log("Chapter Log Data found. Start enqueueing now");
+                    foreach (var logItem in chapter.logData)
+                    {
+                        StartCoroutine(EnqueueLogItem(logItem));
+                        ActivityLogQueue.Add(logItem);
+                    }
+                }
+                
+        }
+
+        private IEnumerator EnqueueLogItem(OrgActivity logItem)
+        {
+            var timeCount = 0f;
+            
+           Debug.Log("in log enqueuer. Item: " + logItem.heading + " / targetTimeInMs = " + logItem.targetTimeInMs);
+           while(timeCount < logItem.targetTimeInMs / 1000)
+            {
+                if (!isPaused)
+                    timeCount += Time.deltaTime;
+                yield return null;
+            }
+           ActivityLogQueue.Remove(logItem);
+           foreach (var hmch in handMenuReferences)
+           {
+                hmch.addContentCard(logItem);   
+           }
         }
 
         IEnumerator EnqueueVideoMovement(TimedMovement movement, Vector3 adjustment, GameObject objectToMove)
@@ -250,6 +282,7 @@ namespace Data
                 {
                     foreach (var container in DevicesWithStoppedVideosRemainingInScene)
                     {
+                        container.GetComponentInChildren<VideoPlayer>().clip = null; //Without this line it still leaks
                         container.SetActive(false);
                     }
                 }
@@ -288,10 +321,92 @@ namespace Data
             }
         }
 
+        public void fwdChapter()
+        {
+            Debug.Log("forward chapter called. CurrentChapter = " + currentChapter);
+            if (currentChapter < availableChapters.Count - 1)
+            {
+                currentChapter++;
+                stopPlaybackAndRemoveAssets();
+                GoToChapter(currentChapter);
+            }
+            
+        }
+
+        private void stopPlaybackAndRemoveAssets()
+        {
+            StopAllCoroutines();
+            isPaused = false;
+            foreach (var container in DevicesWithStoppedVideosRemainingInScene)
+            {
+                container.SetActive(false);
+            }
+            DevicesWithStoppedVideosRemainingInScene.Clear();
+
+            foreach (var container in mainStoryVideoPlayers)
+            {
+                container.Pause();
+            }
+            
+            mainStoryVideoPlayers.Clear();
+            
+            //post all log items that have not yet been posted instantly and clear list
+            foreach (var logItem in ActivityLogQueue)
+            {
+                foreach (var hmch in handMenuReferences)
+                {
+                    hmch.addContentCard(logItem);   
+                }
+            }
+            ActivityLogQueue.Clear();
+            
+            _desktop.SetActive(false);
+            _desktopTwo.SetActive(false);
+            _personaImage.SetActive(false);
+            _mobile.SetActive(false);
+            _pauseIndicator.SetActive(false);
+        }
+
+        public void bwdChapter()
+        {
+            if (currentChapter > 0)
+            {
+                currentChapter--;
+                stopPlaybackAndRemoveAssets();
+                GoToChapter(currentChapter);
+            }
+        }
+
             
         IEnumerator EnqueueVideo(float startTime, Device device, float stopTime, VideoSnippet storyBlock)
         {
             Debug.Log("video "+ device.ToString() +" Enqueued, startTime = "+startTime.ToString()+", stopTime = "+stopTime.ToString());
+            //start pre loading of videos
+            GameObject videoContainer = null;
+            switch (device)
+            {
+                case Device.Avatar:
+                    videoContainer = _avatar;
+                    break;
+                case Device.Mobile:
+                    videoContainer = _mobile;
+                    break;
+                case Device.Desktop:
+                    videoContainer = _desktop;
+                    break;
+                case Device.DesktopTwo:
+                    videoContainer = _desktopTwo;
+                    break;
+                default:
+                    break;
+            }
+
+            if (videoContainer != null)
+            {
+                videoContainer.GetComponentInChildren<VideoPlayer>().clip =
+                    (VideoClip) Resources.Load("videos/" + storyBlock.id);
+                
+            }
             //yield return new WaitForSeconds(startTime);
             var timeCount = 0f;
             while(timeCount < startTime)
@@ -385,7 +500,7 @@ namespace Data
             //load correct video
     //TODO: Implement dynamic loading of videos / does not work atm
     //load correct video
-    videoPlayer.clip = (VideoClip)Resources.Load("videos/"+videoId);
+    //videoPlayer.clip = (VideoClip)Resources.Load("videos/"+videoId);
 
 
 //register videoPlayer
@@ -423,10 +538,12 @@ if (mainStoryVideoPlayers.Count == 0)
 
 if (keep)
 {
+    
     DevicesWithStoppedVideosRemainingInScene.Add(container);
 }
 else
 {
+    videoPlayer.clip = null; //Without this line it still leaks
     container.SetActive(false);
 }
     
@@ -470,6 +587,7 @@ private void GoToChapter(int chapterId)
 if (!availableChapters[chapterId].Equals(null))
 {
     Debug.Log("switch to next chapter #" + chapterId);
+    
     newChapter = true;
     currentChapter = chapterId;
     return;

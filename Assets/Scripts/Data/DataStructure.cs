@@ -29,6 +29,7 @@ namespace Data
         public bool hasWorldPositionAttached;
         public Vector3 worldPositionOffset;
         public Vector3 worldRotationOffset;
+        public List<OrgActivity> logData;
     }
 
     [Serializable]
@@ -58,6 +59,16 @@ namespace Data
         public ButtonAction action;
         public int actionPayload;
         public Vector3 position;
+    }
+    
+    [Serializable]
+    public struct OrgActivity
+    {
+        public float targetTimeInMs;
+        public string heading;
+        public string text;
+        public string iconName;
+        public string iconColor;
     }
 
     [Serializable]

@@ -203,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxInteractors: -1
   _maxSelectingInteractors: -1
+  _pointableElement: {fileID: 0}
   _proximityField: {fileID: 6587077856986437796}
   _surface: {fileID: 561236395412243849}
   _maxDistance: 0.08
